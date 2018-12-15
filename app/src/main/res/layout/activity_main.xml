@@ -19,8 +19,9 @@
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="100dp"
+            android:scaleType="centerCrop"
             android:padding="10dp"
             android:layout_margin="10dp"
             android:src="@drawable/login_icon01"/>
@@ -32,12 +33,17 @@
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사용자명 또는 이메일 주소"
+        android:textStyle="italic"
+        android:textScaleX="1.5"
+        android:lines="1"
+        android:text="사용자명 또는 이메일 주소fdsfdfadfsadsffdsfdsfdsf"
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:hint="아이디를 입력해주세요."/>
 
     <TextView
         android:layout_marginTop="15dp"
@@ -46,7 +52,12 @@
         android:text="암호"/>
 
     <EditText
+        android:hint="비밀번호를 입력해주세요."
+        android:textColorHint="#ff0000"
+        android:background="#00000000"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
+        android:imeOptions="actionGo"
         android:layout_height="wrap_content" />
 
     <LinearLayout
@@ -79,7 +90,9 @@
             android:paddingLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="회원가입"/>
+            android:textSize="20sp"
+            android:text="회원가입"
+            android:background="#ff0000"/>
         <!--Shift+\ = | -->
         <TextView
             android:layout_width="wrap_content"
@@ -90,7 +103,49 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="암호를 분실하셨나요?"/>
+            android:textColor="#33FF0000"
+            android:text="암호를 분실하셨나요?"
+            <!--android:background="@drawable/login_icon01"/>-->
     </android.support.v7.widget.LinearLayoutCompat>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/login_icon01"
+            android:scaleType="centerCrop"/>
+
+
+
+    </LinearLayout>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일반회원"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="법인회원"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="미성년자"/>
+
+
+
 </LinearLayout>
+
+
+
+
+
+
+
