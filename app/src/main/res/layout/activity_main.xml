@@ -26,11 +26,6 @@
             android:src="@drawable/login_icon01"/>
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="더조은컴퓨터에 오신것을 환영합니다."/>
 
 
     <TextView
