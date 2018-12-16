@@ -81,7 +81,7 @@
             android:text="로그인"/>
     </LinearLayout>
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <LinearLayout
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,9 +104,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#33FF0000"
-            android:text="암호를 분실하셨나요?"
+            android:text="암호를 분실하셨나요?" />
             <!--android:background="@drawable/login_icon01"/>-->
-    </android.support.v7.widget.LinearLayoutCompat>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
