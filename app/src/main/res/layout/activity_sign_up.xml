@@ -80,6 +80,11 @@
                 android:layout_height="wrap_content"
                 android:text="서비스 이용 약관"/>
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
@@ -96,6 +101,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="개인정보처리방침"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
             <ImageView
                 android:layout_width="30dp"
@@ -114,6 +124,12 @@
                 android:layout_height="wrap_content"
                 android:text="유료상품이용약관"/>
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
@@ -130,6 +146,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="이벤트 마케팅 수신 동의"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
             <ImageView
                 android:layout_width="30dp"
